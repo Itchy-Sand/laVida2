@@ -1,4 +1,8 @@
-.carousel {
-    height: 400px;
-    overflow: hidden;
+/* ***** MOBILE ***** */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 350px auto;
 }
