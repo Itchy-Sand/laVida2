@@ -9,10 +9,15 @@ body {
 
 header {
     height: 100%;
+    position: relative;
+    background-image: url('./slider/anniversary-beautiful-birthday-433527.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .carousel {
     height: 100%;
+    display: none;
 }
 
 .carousel-inner {
@@ -23,7 +28,15 @@ header {
      height: 100%;
      background-size: cover;
      background-position: 50%;
- }
+}
+
+.mainHeading {
+    position: absolute;
+    width: 100%;
+    bottom: 180px;
+    text-align: center;
+    display: none;
+}
 
  section {
     display: grid;
