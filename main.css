@@ -33,10 +33,16 @@ header {
 .mainHeading {
     position: absolute;
     width: 100%;
-    bottom: 35px;
+    bottom: 10px;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
+    
     /* display: none; */
+}
+
+.mainHeading h1 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 6em;
 }
 
  section {
