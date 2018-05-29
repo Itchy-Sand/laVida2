@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-rows: 400px auto;
+    grid-template-rows: 150px auto;
 }
 
 header {
@@ -33,9 +33,10 @@ header {
 .mainHeading {
     position: absolute;
     width: 100%;
-    bottom: 180px;
+    bottom: 35px;
     text-align: center;
-    display: none;
+    letter-spacing: 3px;
+    /* display: none; */
 }
 
  section {
