@@ -42,9 +42,14 @@ header {
 
 .mainHeading h1 {
     font-family: 'Alex Brush', cursive;
-    font-size: 5em;
+    font-size: 4.5em;
 }
 
  section {
     display: grid;
+}
+
+section {
+    display: grid;
+
 }
